@@ -1,0 +1,5 @@
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\CrackingCoding\bin\Debug\CrackingCoding.exe.config
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\CrackingCoding\bin\Debug\CrackingCoding.exe
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\CrackingCoding\bin\Debug\CrackingCoding.pdb
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\CrackingCoding\obj\Debug\CrackingCoding.exe
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\CrackingCoding\obj\Debug\CrackingCoding.pdb

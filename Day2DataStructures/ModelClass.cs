@@ -16,7 +16,6 @@ namespace ThirtyDaysChallengeHackerRank
             return res;
         }
 
-
         //Day 3 Conditional Statements
         public string conditionalStatements(int n)
         {
@@ -32,6 +31,25 @@ namespace ThirtyDaysChallengeHackerRank
             else
                 return "Wiered";
             
+        }
+
+        //Day 6 review : Devide string
+        public void devideString(string inputString)
+        {
+            string even = null, odd = null;
+            for (int stringIndex = 0; stringIndex < inputString.Length; stringIndex++)
+            {
+                if (stringIndex % 2 == 0)
+                {
+                    even = even + inputString[stringIndex];
+                }
+                else
+                {
+                    odd = odd + inputString[stringIndex];
+                }
+
+            }
+            Console.WriteLine(even + " " + odd);
         }
 
         public static void day1()
