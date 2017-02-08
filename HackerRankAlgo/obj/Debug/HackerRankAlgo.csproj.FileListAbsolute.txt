@@ -1,0 +1,6 @@
+C:\MangeshProject\Hackathon30Days\HackerRankAlgo\bin\Debug\HackerRankAlgo.exe.config
+C:\MangeshProject\Hackathon30Days\HackerRankAlgo\bin\Debug\HackerRankAlgo.exe
+C:\MangeshProject\Hackathon30Days\HackerRankAlgo\bin\Debug\HackerRankAlgo.pdb
+C:\MangeshProject\Hackathon30Days\HackerRankAlgo\obj\Debug\HackerRankAlgo.csprojResolveAssemblyReference.cache
+C:\MangeshProject\Hackathon30Days\HackerRankAlgo\obj\Debug\HackerRankAlgo.exe
+C:\MangeshProject\Hackathon30Days\HackerRankAlgo\obj\Debug\HackerRankAlgo.pdb

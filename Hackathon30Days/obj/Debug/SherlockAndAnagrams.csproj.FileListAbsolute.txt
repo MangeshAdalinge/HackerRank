@@ -1,0 +1,6 @@
+C:\MangeshProject\Hackathon30Days\Hackathon30Days\bin\Debug\Hackathon30Days.exe.config
+C:\MangeshProject\Hackathon30Days\Hackathon30Days\bin\Debug\Hackathon30Days.exe
+C:\MangeshProject\Hackathon30Days\Hackathon30Days\bin\Debug\Hackathon30Days.pdb
+C:\MangeshProject\Hackathon30Days\Hackathon30Days\obj\Debug\SherlockAndAnagrams.csprojResolveAssemblyReference.cache
+C:\MangeshProject\Hackathon30Days\Hackathon30Days\obj\Debug\Hackathon30Days.exe
+C:\MangeshProject\Hackathon30Days\Hackathon30Days\obj\Debug\Hackathon30Days.pdb

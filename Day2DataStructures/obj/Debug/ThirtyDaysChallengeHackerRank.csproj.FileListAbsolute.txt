@@ -1,0 +1,6 @@
+C:\MangeshProject\Hackathon30Days\Day2DataStructures\bin\Debug\ThirtyDaysChallengeHackerRank.exe.config
+C:\MangeshProject\Hackathon30Days\Day2DataStructures\obj\Debug\ThirtyDaysChallengeHackerRank.csprojResolveAssemblyReference.cache
+C:\MangeshProject\Hackathon30Days\Day2DataStructures\bin\Debug\ThirtyDaysChallengeHackerRank.exe
+C:\MangeshProject\Hackathon30Days\Day2DataStructures\bin\Debug\ThirtyDaysChallengeHackerRank.pdb
+C:\MangeshProject\Hackathon30Days\Day2DataStructures\obj\Debug\ThirtyDaysChallengeHackerRank.exe
+C:\MangeshProject\Hackathon30Days\Day2DataStructures\obj\Debug\ThirtyDaysChallengeHackerRank.pdb
