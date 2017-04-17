@@ -39,7 +39,9 @@ namespace Hackathon30Days
         static void Main(String[] args)
         {
           //  ProcessInput();
-            RunSampleTestcase();
+           // RunSampleTestcase();
+            string s = "abcd";
+            Console.WriteLine(s[0]);
             Console.ReadLine();
         }
 

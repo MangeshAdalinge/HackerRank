@@ -4,3 +4,9 @@ C:\MangeshProject\Hackathon30Days\HackerRankAlgo\bin\Debug\HackerRankAlgo.pdb
 C:\MangeshProject\Hackathon30Days\HackerRankAlgo\obj\Debug\HackerRankAlgo.csprojResolveAssemblyReference.cache
 C:\MangeshProject\Hackathon30Days\HackerRankAlgo\obj\Debug\HackerRankAlgo.exe
 C:\MangeshProject\Hackathon30Days\HackerRankAlgo\obj\Debug\HackerRankAlgo.pdb
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\HackerRankAlgo\bin\Debug\HackerRankAlgo.exe.config
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\HackerRankAlgo\bin\Debug\HackerRankAlgo.exe
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\HackerRankAlgo\bin\Debug\HackerRankAlgo.pdb
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\HackerRankAlgo\obj\Debug\HackerRankAlgo.exe
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\HackerRankAlgo\obj\Debug\HackerRankAlgo.pdb
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\HackerRankAlgo\obj\Debug\HackerRankAlgo.csprojResolveAssemblyReference.cache

@@ -8,73 +8,117 @@ namespace MyAnagrams
 {
     class Program
     {
-        static void Main(string[] args)
+
+        static Dictionary<int, string> res = new Dictionary<int, string>();
+        static int cnt = 0;
+        
+        // Construct dictionary of all substrings
+        private static Dictionary<int, List<string>> allSubStrings(string input)
         {
-            processInput();
+            Dictionary<int, List<string>> subStringsDictionary = new Dictionary<int, List<string>>();
+            
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                for (int j = i+1; j <= input.Length; j++)
+                {
+                    List<string> allSubStringsList = new List<string>();
+                    if (input.Substring(i, j - i).Length < input.Length)
+                    {
+                        if (subStringsDictionary.ContainsKey(input.Substring(i, j - i).Length))
+                        {
+                            subStringsDictionary[input.Substring(i, j - i).Length].Add(input.Substring(i, j - i));
+                        }
+                        else
+                        {
+                            allSubStringsList.Add(input.Substring(i, j - i));
+                            subStringsDictionary.Add(input.Substring(i, j - i).Length, allSubStringsList);
+                        }
+                    }
+                    
+                }
+            }
+            return subStringsDictionary;
+        }
+
+        //anagrams
+        private static bool anagrams(string s1, string s2)
+        {
+            foreach (char c in s1)
+            {
+                int ix = s2.IndexOf(c);
+
+                if (ix == -1)
+                    return false;
+            }
+
+            return true;
+        
+        }
+
+        // Find anagrams
+        private static void findAnagrams(List<string> listToFindAnagrams)
+        {   
+            listToFindAnagrams.Sort();
+            //Console.WriteLine("Sorted List: ");
+            for (int listIndex = 0; listIndex < listToFindAnagrams.Count-1; listIndex++)
+            {
+                //Console.Write(listToFindAnagrams[listIndex] + " ");
+                for (int i = listIndex+1; i < listToFindAnagrams.Count; i++)
+                {
+                    if (anagrams(listToFindAnagrams[listIndex], listToFindAnagrams[i]))
+                    {
+
+                        res.Add(++cnt, listToFindAnagrams[listIndex]);
+                    }
+                }
+               
+
+            }
+
+            
         }
 
         private static void processInput()
         {
             Console.WriteLine("Please enter number of strings: ");
-            var noQueries = int.Parse(Console.ReadLine());
-            
+            int noQueries = int.Parse(Console.ReadLine());
+            string[] input = new string[noQueries];
             Console.WriteLine("Please enter " + noQueries + " input strings ");
-            while(noQueries --> 0)
+            for (int index = 0; index < noQueries; index++)
             {
-                var input = Console.ReadLine();
-                Console.WriteLine("Input: "+input);
-                getsub1(input);
-                //Dictionary<int, List<string>> subStrings = getsub1(input);
-                //foreach (var item in subStrings)
-                //{
-                //   List<string> output = new List<string> { };
-                //    output = subStrings[Convert.ToInt32(item)];
-                //    Console.WriteLine();
-                //}
+                input[index] = Console.ReadLine();
+                Console.WriteLine("Input " + index + " : " + input[index]);
+            }
+
+            for (int index = 0; index < noQueries; index++)
+            {
                 
-                Console.ReadLine();
-            }
-        }
-
-
-        static void getsub1(string str)
-        {
-            
-            var items = Enumerable
-                .Range(0, str.Length)
-                .SelectMany(i => Enumerable.Range(1, str.Length - i ).Select(j => str.Substring(i, j)))
-                .Distinct()
-                .OrderBy(s => s.Length);
-            foreach (var s in items)
-            {
-                Console.WriteLine(s);
-            }
-        
-        }
-
-
-
-        static Dictionary<int, List<string>> getsub(string str1)
-        {
-            Dictionary<int, List<string>> ret = new Dictionary<int, List<string>> { };
-
-            for (int i = 0; i < str1.Length; i++)
-            {
-                for (int j = i; j < str1.Length; j++)
+               // Console.WriteLine("All substrings for :: Input " + index);
+                Dictionary<int, List<string>> allSubStringsDictionary = allSubStrings(input[index]);
+                foreach (KeyValuePair<int, List<string>> pair in allSubStringsDictionary)
                 {
-                    List<string> x = new List<string> { };
-                    x.Add(str1.Substring(i, j + 1));
-                    if (!ret.ContainsKey(str1.Substring(i, j + 1).Length))
-                    {
-                        ret.Add(str1.Substring(i, j + 1).Length, x);
-                    }
-                    else
-                        ret.Add(str1.Substring(i, j + 1).Length, x);
+                    //Console.WriteLine(pair.Key);
+                   findAnagrams(pair.Value);
+                }
+                Console.WriteLine("No of anagrams: " + res.Count);
+                Console.WriteLine("Anagrams are: ");
+                foreach (KeyValuePair<int, string> pair in res)
+                {   Console.WriteLine(pair.Value);
                 }
             }
 
-            return ret;
         }
+        static void Main(string[] args)
+        {
+            processInput();
+            Console.ReadLine();
+        }
+
+       
+
+
+       
 
 
     }

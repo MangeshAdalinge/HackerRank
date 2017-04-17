@@ -3,3 +3,8 @@ C:\MangeshProject\Hackathon30Days\MyAnagrams\bin\Debug\MyAnagrams.exe
 C:\MangeshProject\Hackathon30Days\MyAnagrams\bin\Debug\MyAnagrams.pdb
 C:\MangeshProject\Hackathon30Days\MyAnagrams\obj\Debug\MyAnagrams.exe
 C:\MangeshProject\Hackathon30Days\MyAnagrams\obj\Debug\MyAnagrams.pdb
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\MyAnagrams\bin\Debug\MyAnagrams.exe.config
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\MyAnagrams\bin\Debug\MyAnagrams.exe
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\MyAnagrams\bin\Debug\MyAnagrams.pdb
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\MyAnagrams\obj\Debug\MyAnagrams.exe
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\MyAnagrams\obj\Debug\MyAnagrams.pdb

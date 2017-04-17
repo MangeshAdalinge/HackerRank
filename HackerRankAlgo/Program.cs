@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+delegate int mathematicalOperations(int a, int b);
+
 namespace HackerRankAlgo
 {
     class Program
@@ -143,6 +145,20 @@ namespace HackerRankAlgo
             }
         }
 
+        //Delegates
+        //Add numbers
+        public static int addNumber(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+
+        //Multiply Numbers
+        public static int multNumber(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+
+
         static void Main(string[] args)
         {
             //Arrays Reverse
@@ -155,7 +171,37 @@ namespace HackerRankAlgo
             // stairecase();
 
             //left rotation
-            leftRotation1();
+           // leftRotation1();
+
+            //string d = Console.ReadLine();
+            //int r1 = int.Parse(Console.ReadLine());
+            //int r2 = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    int check = Convert.ToInt16(i+d);
+            //    if (check >= r1 && check <= r2)
+            //    { 
+                    
+            //    }
+                
+            //}
+
+            /*Console.WriteLine("Operator?:    ");
+            int input = int.Parse(Console.ReadLine());
+            
+
+            Console.WriteLine((input > 0) ? "Positive" : "Negative");*/
+
+            Console.WriteLine("Delegates: ");
+            
+            mathematicalOperations delObj1 = new mathematicalOperations(addNumber);
+            Console.WriteLine("Addition: "+delObj1(5,10));
+
+            mathematicalOperations delObj2 = new mathematicalOperations(multNumber);
+            Console.WriteLine("Multiplication: "+delObj2(5, 10));
+
+
             Console.ReadLine();
 
         }
