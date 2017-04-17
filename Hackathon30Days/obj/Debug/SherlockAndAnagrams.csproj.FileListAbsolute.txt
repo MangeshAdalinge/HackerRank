@@ -9,3 +9,4 @@ C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\Hackathon30Days\obj\Debug\Ha
 C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\Hackathon30Days\obj\Debug\Hackathon30Days.pdb
 C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\Hackathon30Days\bin\Debug\Hackathon30Days.exe
 C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\Hackathon30Days\bin\Debug\Hackathon30Days.pdb
+C:\Users\mange\OneDrive\Documents\GitHub\HackerRank\Hackathon30Days\obj\Debug\SherlockAndAnagrams.csprojResolveAssemblyReference.cache
