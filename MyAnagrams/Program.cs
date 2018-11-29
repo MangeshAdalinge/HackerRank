@@ -11,6 +11,7 @@ namespace MyAnagrams
 
         static Dictionary<int, string> res = new Dictionary<int, string>();
         static int cnt = 0;
+        //test
         
         // Construct dictionary of all substrings
         private static Dictionary<int, List<string>> allSubStrings(string input)
